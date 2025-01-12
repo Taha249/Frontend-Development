@@ -1,0 +1,32 @@
+p {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: unset;
+    text-transform: align-items: flex-start;;
+}
+
+p {
+    /* text-align: left;
+    text-align: center; */
+    text-align: justify;
+    }
+
+p {
+    text-indent: 2em; /* remove its space before the first word*/
+    text-shadow:0cap;
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}

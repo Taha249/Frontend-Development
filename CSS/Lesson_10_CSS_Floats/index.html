@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Floats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="block left">Float</div>
+
+        <p>When creating animations and other GPU-heavy actions, it's important to understand the willchange attribute.
+        Both CSS keyframes and the transition property use GPU acceleration.</p>
+        <p>Performance is increased by offloading calculations to the device's GPU. This is done by creating paint layers (parts of the
+            page that are individually rendered) that are offloaded to the GPU to be calculated. The willchange property tells the browser what will animate, allowing the browser to create smaller paint
+            areas, thus increasing performance.</p> 
+    </section>
+    <div class="clear">Float</div>
+    
+    <p>The will-change property accepts a comma-separated list of properties to be animated. For
+       example, if you plan on transforming an object and changing its opacity, you would specify:</p>
+    <div class="block right">Float</div>
+</body>
+
+</html>

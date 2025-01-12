@@ -1,0 +1,41 @@
+/* Delete all margins and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box; /* default sizing */
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    width: 100%;
+}
+/*p{
+    font-size: 22px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+h1{
+    border: 3px dashed red;
+    width: 30%;
+    font-size: 2rem;
+    padding: 5rem;
+}
+
+main{
+    width: 50vw;
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem; /*default size*/
+    /* 2rem means it is 32px */
+    /* 1em means it is 16px */
+    width: 50ch;
+    padding: 0.3rem;
+   /* background-color: aquamarine; */
+}
